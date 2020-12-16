@@ -1,0 +1,40 @@
+.ba-Slider {
+  position: relative;
+  display: block;
+
+  background: #212121;
+  border: 1px solid white;
+  margin: 20px auto;
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.slider {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 16px);
+  background: transparent url(../icon/leftRight.png);
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+#before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+
+}
+
+.ease {
+  transition: width ease .5s, left ease .5s;
+  -moz-transition: width ease .5s, left ease .5s;
+  -webkit-transition: width ease .5s, left ease .5s;
+}
+
+#before:after {}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="../">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/my-style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slider-img.css">
+  <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+  <title>Rotterdam 360</title>
+</head>
+<style>
+body {
+  background: url(assets/img/attic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: hidden; // hide vertical
+  overflow-x: hidden; // hide horizontal
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+<body>
+  <div class="layer">
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="public/index.html">Home</a>
+    <a href="public/about.html">About</a>
+    <a href="public/location.html">Location</a>
+    <a href="public/photo360.html">360 Photo</a>
+    <a href="public/virtual_tour.html">Virtual Tour</a>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top navbar-bg-none">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <p class="judulx" style="font-size: 2rem;color: #fff">Virtual Tour</p>
+    </div>
+    <div class="mx-auto order-0">
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <span style="font-size:30px;cursor:pointer;color: #fff" onclick="openNav()">&#9776;</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center" style="margin-top: 3.5rem;">
+        <img class="" src="assets/img/rotterdam_1.png" width="65%">
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="assets/js/jquery-3.5.1.slim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="assets/js//popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script>
+  function toogleMenu() {
+    var x = document.getElementById("sideMenu");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+</body>
+
+</html>
