@@ -1,0 +1,256 @@
+{
+	"mapwidth":"1200",
+	"mapheight":"760",
+	"styles": [
+		{
+			"class": "red",
+			"base": { "fill": "rgba(242, 53, 67, 0.6)" },
+			"hover": { "fill": "rgba(242, 53, 67, 0.8)" },
+			"active": { "fill": "rgba(242, 53, 67, 1.0)" }
+		},
+		{
+			"class": "purple",
+			"base": { "fill": "rgba(121, 94, 205, 0.6)" },
+			"hover": { "fill": "rgba(121, 94, 205, 0.8)" },
+			"active": { "fill": "rgba(121, 94, 205, 1.0)" }
+		},
+		{
+			"class": "green",
+			"base": { "fill": "rgba(130, 192, 62, 0.6)" },
+			"hover": { "fill": "rgba(130, 192, 62, 0.8)" },
+			"active": { "fill": "rgba(130, 192, 62, 1.0)" }
+		},
+		{
+			"class": "teal",
+			"base": { "fill": "rgba(41, 175, 161, 0.6)" },
+			"hover": { "fill": "rgba(41, 175, 161, 0.8)" },
+			"active": { "fill": "rgba(41, 175, 161, 1.0)" }
+		},
+		{
+			"class": "yellow",
+			"base": { "fill": "rgba(253, 202, 42, 0.6)" },
+			"hover": { "fill": "rgba(253, 202, 42, 0.8)" },
+			"active": { "fill": "rgba(253, 202, 42, 1.0)" }
+		},
+		{
+			"class": "orange",
+			"base": { "fill": "rgba(241, 152, 25, 0.6)" },
+			"hover": { "fill": "rgba(241, 152, 25, 0.8)" },
+			"active": { "fill": "rgba(241, 152, 25, 1.0)" }
+		}
+	],
+	"categories":[
+		{
+			"id": "asia",
+			"title": "Asia",
+			"color": "#F23543",
+			"legend": "true",
+			"style": "red"
+		},
+		{
+			"id": "europe",
+			"title": "Europe",
+			"color": "#795ECD",
+			"legend": "true",
+			"style": "purple"
+		},
+		{
+			"id": "na",
+			"title": "North America",
+			"color": "#82C03E",
+			"legend": "true",
+			"style": "green"
+		},
+		{
+			"id": "sa",
+			"title": "South America",
+			"color": "#29AFA1",
+			"legend": "true",
+			"style": "teal"
+		},
+		{
+			"id": "africa",
+			"title": "Africa",
+			"color": "#F19819",
+			"legend": "true",
+			"style": "orange"
+		},
+		{
+			"id": "oceania",
+			"title": "Oceania",
+			"color": "#FDCA2A",
+			"legend": "true",
+			"style": "yellow"
+		}
+	],
+	"levels":[
+		{
+			"id":"world",
+			"title":"World",
+			"map":"maps/world.svg",
+			"locations":[
+				{
+					"id": "ca",
+					"title": "Canada",
+					"description": "Canada.",
+					"link": "canada.html",
+					"category": "na",
+					"x": "0.2271",
+					"y": "0.4290"
+				},
+				{
+					"id": "us",
+					"title": "USA",
+					"description": "United States of America.",
+					"link": "usa.html",
+					"category": "na",
+					"x": "0.2338",
+					"y": "0.5232"
+				},
+				{
+					"id": "fr",
+					"title": "France",
+					"description": "France departments.",
+					"link": "france.html",
+					"category": "europe",
+					"x": "0.5079",
+					"y": "0.4758"
+				},
+				{
+					"id": "de",
+					"title": "Germany",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p><p>Nullam ut lectus massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc lobortis pretium velit eu maximus. Integer a faucibus libero.</p><p>Ut id eleifend sem, faucibus consectetur ligula. Proin vel vestibulum dui. Sed rhoncus eleifend velit, a sodales eros auctor ut.</p>",
+					"category": "europe",
+					"link": "germany.html",
+					"x": "0.5284",
+					"y": "0.4468"
+				},
+				{
+					"id": "hu",
+					"title": "Hungary",
+					"description": "Hungary",
+					"category": "europe",
+					"x": "0.5515",
+					"y": "0.4731"
+				},
+				{
+					"id": "gr",
+					"title": "Greece",
+					"description": "Greece",
+					"category": "europe",
+					"x": "0.5581",
+					"y": "0.5171"
+				},
+				{
+					"id": "gb",
+					"title": "United Kingdom",
+					"description": "England.",
+					"category": "europe",
+					"link": "uk.html",
+					"x": "0.4941",
+					"y": "0.4285"
+				},
+				{
+					"id": "za",
+					"title": "South Africa",
+					"description": "South Africa",
+					"category": "africa",
+					"x": "0.5654",
+					"y": "0.8221"
+				},
+				{
+					"id": "mg",
+					"title": "Madagascar",
+					"description": "Madagascar",
+					"category": "africa",
+					"x": "0.6238",
+					"y": "0.7749"
+				},
+				{
+					"id": "ma",
+					"title": "Morocco",
+					"description": "Morocco",
+					"category": "africa",
+					"x": "0.4834",
+					"y": "0.5547"
+				},
+				{
+					"id": "eg",
+					"title": "Egypt",
+					"description": "Egypt",
+					"category": "africa",
+					"x": "0.5779",
+					"y": "0.5759"
+				},
+				{
+					"id": "ly",
+					"title": "Libya",
+					"description": "Libya",
+					"category": "africa",
+					"x": "0.5474",
+					"y": "0.5786"
+				},
+				{
+					"id": "na",
+					"title": "Namibia",
+					"description": "Namibia",
+					"category": "africa",
+					"x": "0.5455",
+					"y": "0.7970"
+				},
+				{
+					"id": "cn",
+					"title": "China",
+					"description": "China",
+					"link": "china.html",
+					"category": "asia",
+					"x": "0.7782",
+					"y": "0.5319"
+				},
+				{
+					"id": "ru",
+					"title": "Russia",
+					"description": "Russia",
+					"link": "russia.html",
+					"category": "asia",
+					"x": "0.7681",
+					"y": "0.3352"
+				},
+				{
+					"id": "au",
+					"title": "Australia",
+					"description": "Australia",
+					"link": "australia.html",
+					"category": "oceania",
+					"x": "0.8563",
+					"y": "0.7957"
+				},
+				{
+					"id": "nz",
+					"title": "New Zealand",
+					"description": "New Zealand",
+					"category": "oceania",
+					"x": "0.9506",
+					"y": "0.8822"
+				},
+				{
+					"id": "br",
+					"title": "Brazil",
+					"description": "Brazil",
+					"link": "brazil.html",
+					"category": "sa",
+					"x": "0.3632",
+					"y": "0.7413"
+				},
+				{
+					"id": "ar",
+					"title": "Argentina",
+					"description": "Argentina",
+					"category": "sa",
+					"x": "0.3221",
+					"y": "0.8591"
+				}
+			]
+		}
+	]
+}

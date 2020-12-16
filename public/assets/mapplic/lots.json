@@ -1,0 +1,714 @@
+{
+	"mapwidth": "1300",
+	"mapheight": "1000",
+	"defaultstyle": "default",
+	"categories": [
+		{
+			"title": "Sold",
+			"id": "sold",
+			"about": "",
+			"style": "sold"
+		},
+		{
+			"title": "Reserved",
+			"id": "reserved",
+			"about": "",
+			"style": "reserved"
+		}
+	],
+	"styles": [
+		{
+			"base": {
+				"fill": "rgba(142,186,94,0.8)"
+			},
+			"hover": {
+				"fill": "#8eba5e"
+			},
+			"active": {
+				"fill": "#7aa855"
+			},
+			"class": "default"
+		},
+		{
+			"base": {
+				"fill": "rgba(234,117,117,0.6)"
+			},
+			"hover": {
+				"fill": "rgba(234,117,117,0.8)"
+			},
+			"active": {
+				"fill": "#ea7575"
+			},
+			"class": "sold"
+		},
+		{
+			"base": {
+				"fill": "rgba(234,194,140,0.6)"
+			},
+			"hover": {
+				"fill": "rgba(234,194,140,0.8)"
+			},
+			"active": {
+				"fill": "#eac28c"
+			},
+			"class": "reserved"
+		}
+	],
+	"levels": [
+		{
+			"id": "underground",
+			"title": "Underground",
+			"map": "maps/lots.svg",
+			"locations": [
+				{
+					"id": "lot12",
+					"title": "Lot 12",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3726",
+					"y": "0.4565"
+				},
+				{
+					"id": "lot11",
+					"title": "Lot 11",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3633",
+					"y": "0.3731"
+				},
+				{
+					"id": "lot9",
+					"title": "Lot 9",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3603",
+					"y": "0.3016"
+				},
+				{
+					"id": "lot10",
+					"title": "Lot 10",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.2964",
+					"y": "0.3024"
+				},
+				{
+					"id": "lot8",
+					"title": "Lot 8",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3343",
+					"y": "0.2150"
+				},
+				{
+					"id": "lot7",
+					"title": "Lot 7",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3422",
+					"y": "0.1235"
+				},
+				{
+					"id": "lot13",
+					"title": "Lot 13",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.2876",
+					"y": "0.3953"
+				},
+				{
+					"id": "lot6",
+					"title": "Lot 6",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.4424",
+					"y": "0.1040"
+				},
+				{
+					"id": "lot1",
+					"title": "Lot 1",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.4856",
+					"y": "0.4677"
+				},
+				{
+					"id": "lot2",
+					"title": "Lot 2",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #ea7575;\">SOLD</b><br />Size: <b>850 sqm</b><br />This lot is no longer available.</p>",
+					"x": "0.4774",
+					"y": "0.3857",
+					"category": "sold"
+				},
+				{
+					"id": "lot4",
+					"title": "Lot 4",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.4625",
+					"y": "0.2577"
+				},
+				{
+					"id": "lot5",
+					"title": "Lot 5",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.4650",
+					"y": "0.1835"
+				},
+				{
+					"id": "lot14",
+					"title": "Lot 14",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5685",
+					"y": "0.4544"
+				},
+				{
+					"id": "lot15",
+					"title": "Lot 15",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6207",
+					"y": "0.4430"
+				},
+				{
+					"id": "lot57",
+					"title": "House for Sale",
+					"pin": "hidden",
+					"description": "<p>House with pool for sale.</p><p>You can add your own description and edit landmarks any time!</p>",
+					"x": "0.2871",
+					"y": "0.5216"
+				},
+				{
+					"id": "lot60",
+					"title": "Lot 60",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"x": "0.3938",
+					"y": "0.6792",
+					"link": "#more"
+				},
+				{
+					"id": "lot62",
+					"title": "Lot 62",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.2651",
+					"y": "0.6591"
+				},
+				{
+					"id": "lot61",
+					"title": "Lot 61",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3204",
+					"y": "0.6692"
+				},
+				{
+					"id": "lot24",
+					"title": "Lot 24",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5556",
+					"y": "0.1231"
+				},
+				{
+					"id": "lot23",
+					"title": "Lot 23",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5586",
+					"y": "0.2329"
+				},
+				{
+					"id": "lot59",
+					"title": "Lot 59",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3973",
+					"y": "0.6005"
+				},
+				{
+					"id": "lot58",
+					"title": "Lot 58",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3423",
+					"y": "0.5805"
+				},
+				{
+					"id": "lot25",
+					"title": "Lot 25",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6290",
+					"y": "0.1038"
+				},
+				{
+					"id": "lot26",
+					"title": "Lot 26",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #ea7575;\">SOLD</b><br />Size: <b>850 sqm</b><br />This lot is no longer available.</p>",
+					"x": "0.6786",
+					"y": "0.1434",
+					"category": [
+						"sold"
+					]
+				},
+				{
+					"id": "lot27",
+					"title": "Lot 27",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #ea7575;\">SOLD</b><br />Size: <b>850 sqm</b><br />This lot is no longer available.</p>",
+					"x": "0.7248",
+					"y": "0.1751",
+					"category": [
+						"sold"
+					]
+				},
+				{
+					"id": "lot28",
+					"title": "Lot 28",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7656",
+					"y": "0.2088"
+				},
+				{
+					"id": "lot3",
+					"title": "Lot 3",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #eac28c;\">Reserved</b><br />Size: <b>850 sqm</b><br />Please get in touch for more info.</p>",
+					"link": "#more",
+					"x": "0.4696",
+					"y": "0.3229",
+					"category": [
+						"reserved"
+					]
+				},
+				{
+					"id": "lot29",
+					"title": "Lot 29",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.8076",
+					"y": "0.2407"
+				},
+				{
+					"id": "lot16",
+					"title": "Lot 16",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6691",
+					"y": "0.4376"
+				},
+				{
+					"id": "lot17",
+					"title": "Lot 17",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7168",
+					"y": "0.4323"
+				},
+				{
+					"id": "lot32",
+					"title": "Lot 32",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.8715",
+					"y": "0.4056"
+				},
+				{
+					"id": "lot31",
+					"title": "Lot 31",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.8650",
+					"y": "0.3388"
+				},
+				{
+					"id": "lot30",
+					"title": "Lot 30",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.8473",
+					"y": "0.2755"
+				},
+				{
+					"id": "lot46",
+					"title": "Lot 46",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5080",
+					"y": "0.6893"
+				},
+				{
+					"id": "lot33",
+					"title": "Lot 33",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5080",
+					"y": "0.5959"
+				},
+				{
+					"id": "lot18",
+					"title": "Lot 18",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7792",
+					"y": "0.4332"
+				},
+				{
+					"id": "lot19",
+					"title": "Lot 19",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #eac28c;\">Reserved</b><br />Size: <b>850 sqm</b><br />Please get in touch for more info.</p>",
+					"link": "#more",
+					"x": "0.7597",
+					"y": "0.3619",
+					"category": [
+						"reserved"
+					]
+				},
+				{
+					"id": "lot20",
+					"title": "Lot 20",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7162",
+					"y": "0.3283"
+				},
+				{
+					"id": "lot34",
+					"title": "Lot 34",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5547",
+					"y": "0.5893"
+				},
+				{
+					"id": "lot35",
+					"title": "Lot 35",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5992",
+					"y": "0.5817"
+				},
+				{
+					"id": "lot36",
+					"title": "Lot 36",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6412",
+					"y": "0.5777"
+				},
+				{
+					"id": "lot37",
+					"title": "Lot 37",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6846",
+					"y": "0.5724"
+				},
+				{
+					"id": "lot38",
+					"title": "Lot 38",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7293",
+					"y": "0.5559"
+				},
+				{
+					"id": "lot39",
+					"title": "Lot 39",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7868",
+					"y": "0.5342"
+				},
+				{
+					"id": "lot40",
+					"title": "Lot 40",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7868",
+					"y": "0.5928"
+				},
+				{
+					"id": "lot41",
+					"title": "Lot 41",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7292",
+					"y": "0.6304"
+				},
+				{
+					"id": "lot42",
+					"title": "Lot 42",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6775",
+					"y": "0.6673"
+				},
+				{
+					"id": "lot43",
+					"title": "Lot 43",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6344",
+					"y": "0.6824"
+				},
+				{
+					"id": "lot44",
+					"title": "Lot 44",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5943",
+					"y": "0.6856"
+				},
+				{
+					"id": "lot45",
+					"title": "Lot 45",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5527",
+					"y": "0.6879"
+				},
+				{
+					"id": "lot21",
+					"title": "Lot 21",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6767",
+					"y": "0.2987"
+				},
+				{
+					"id": "lot22",
+					"title": "Lot 22",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6213",
+					"y": "0.2650"
+				},
+				{
+					"id": "lot63",
+					"title": "Lot 63 with House",
+					"pin": "hidden",
+					"description": "<p>You can add your own description and edit landmarks any time!</p>",
+					"x": "0.4049",
+					"y": "0.7815"
+				},
+				{
+					"id": "lot64",
+					"title": "Lot 64",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.3415",
+					"y": "0.8111"
+				},
+				{
+					"id": "lot65",
+					"title": "Lot 65",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.2833",
+					"y": "0.8115"
+				},
+				{
+					"id": "lot66",
+					"title": "Lot 66",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br />Size: <b>850 sqm</b><br />Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.2248",
+					"y": "0.8078"
+				},
+				{
+					"id": "lot67",
+					"title": "Lot 67",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.1564",
+					"y": "0.7489"
+				},
+				{
+					"id": "lot47",
+					"title": "Lot 47",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5177",
+					"y": "0.8001"
+				},
+				{
+					"id": "lot48",
+					"title": "Lot 48",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5175",
+					"y": "0.8453"
+				},
+				{
+					"id": "lot49",
+					"title": "Lot 49",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5173",
+					"y": "0.8936"
+				},
+				{
+					"id": "lot50",
+					"title": "Lot 50",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.5796",
+					"y": "0.8451"
+				},
+				{
+					"id": "lot71",
+					"title": "Lot 71",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.1794",
+					"y": "0.4570"
+				},
+				{
+					"id": "lot70",
+					"title": "Lot 70",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.1602",
+					"y": "0.5445"
+				},
+				{
+					"id": "lot69",
+					"title": "Lot 69",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.1605",
+					"y": "0.6099"
+				},
+				{
+					"id": "lot68",
+					"title": "Lot 68 with House",
+					"pin": "hidden",
+					"description": "<p>You can add your own description and edit landmarks any time!</p>",
+					"x": "0.1711",
+					"y": "0.6634"
+				},
+				{
+					"id": "lot51",
+					"title": "Lot 51",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.6288",
+					"y": "0.8235"
+				},
+				{
+					"id": "lot52",
+					"title": "Lot 52",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #ea7575;\">SOLD</b><br />Size: <b>850 sqm</b><br />This lot is no longer available.</p>",
+					"x": "0.6800",
+					"y": "0.7945",
+					"category": [
+						"sold"
+					]
+				},
+				{
+					"id": "lot56",
+					"title": "Lot 56",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.8298",
+					"y": "0.6766"
+				},
+				{
+					"id": "lot55",
+					"title": "Lot 55",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7899",
+					"y": "0.7058"
+				},
+				{
+					"id": "lot54",
+					"title": "Lot 54",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7553",
+					"y": "0.7345"
+				},
+				{
+					"id": "lot53",
+					"title": "Lot 53",
+					"pin": "hidden",
+					"description": "<p>Status: <b style=\"color: #8eba5e;\">Available</b><br>Size: <b>850 sqm</b><br>Please get in touch for an Offer.</p>",
+					"link": "#more",
+					"x": "0.7203",
+					"y": "0.7622"
+				}
+			]
+		}
+	]
+}

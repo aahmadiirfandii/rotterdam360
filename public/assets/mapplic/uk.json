@@ -1,0 +1,62 @@
+{
+	"mapwidth":"900",
+	"mapheight":"1179",
+	
+	"bottomLat": "48.6433269995204",
+	"leftLng": "-12.991157691204458",
+	"topLat": "61.67728290005463",
+	"rightLng": "4.61991628182219",
+
+	"categories":[],
+	"levels":[
+		{
+			"id":"uk",
+			"title":"United Kingdom",
+			"map":"maps/uk.svg",
+			"locations":[
+				{
+					"id": "manchester",
+					"title": "Manchester",
+					"description": "<p>Donec et pretium justo</p>",
+					"pin": "circular pin-md pin-label",
+					"label": "M",
+					"lat": "53.479687",
+					"lng": "-2.245026"
+				},
+				{
+					"id": "liverpool",
+					"title": "Liverpool",
+					"description": "<p>This is an example marker with <b>zoom reveal</b>.</p>",
+					"pin": "circular pin-md pin-label",
+					"label": "L",
+					"reveal": "1",
+					"lat": "53.407283",
+					"lng": "-2.991689"
+				},
+				{
+					"id": "north-west",
+					"title": "North West",
+					"description": "It is the third most populated region after the South East and Greater London.",
+					"pin": "hidden",
+					"style": "defaultstyle"
+				},
+				{
+					"id": "london",
+					"title": "Greater London",
+					"description": "<p>London is divided into the small City of London and the much wider Greater London.</p>",
+					"pin": "hidden",
+					"style": "defaultstyle"
+				},
+				{
+					"id": "south-east",
+					"title": "South East",
+					"description": "<p>Lorem ipsum.</p>",
+					"pin": "hidden",
+					"style": "defaultstyle",
+					"x": "0.6970",
+					"y": "0.8276"
+				}
+			]
+		}
+	]
+}

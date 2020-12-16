@@ -1,0 +1,4 @@
+id,title,description,fill,category,x,y,pin,label,image,
+seattle,Seattle,Just an example location.,,test,0.1076,0.0514,pin-label pin-classic,SE,
+atlanta,Atlanta,,,test,0.7274,0.6297,pin-label pin-classic,AT,
+denver,Denver,Just an example location.,,test,0.3545,0.4325,pin-label pin-classic,DE,

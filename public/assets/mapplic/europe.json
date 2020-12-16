@@ -1,0 +1,251 @@
+{
+	"mapwidth":"841.68",
+	"mapheight":"595.2",
+
+	"bottomLat": "28.176699739870482",
+	"leftLng": "-49.62887515592035",
+	"topLat": "73.21243308208258",
+	"rightLng": "63.870051833093875",
+
+	"styles": [
+		{
+			"class": "eu",
+			"base": { "fill": "#DDEBF2" },
+			"hover": { "fill": "#6498e2" },
+			"active": { "fill": "#3771c8" }
+		},
+		{
+			"class": "lefteu",
+			"base": { "fill": "#f2d6d6" },
+			"hover": { "fill": "#D1626F" },
+			"active": { "fill": "#CB242B" }
+		}
+	],
+
+	"categories": [
+		{
+			"id": "eu",
+			"title": "European Union",
+			"legend": "true",
+			"toggle": "false",
+			"hide": "true",
+			"color": "#DDEBF2",
+			"style": "eu"
+		},
+		{
+			"id": "lefteu",
+			"title": "Left the EU",
+			"legend": "true",
+			"toggle": "false",
+			"hide": "true",
+			"color": "#f2d6d6",
+			"style": "lefteu"
+		},
+		{
+			"id": "founding",
+			"title": "Founding Members",
+			"legend": "false",
+			"toggle": "false"
+		},
+		{
+			"id": "eurozone",
+			"title": "Euro Zone",
+			"legend": "false",
+			"toggle": "false"
+		}
+	],
+
+	"levels":[
+		{
+			"id":"europe",
+			"title":"Europe",
+			"map":"maps/europe.svg",
+			"locations":[
+				{
+					"id": "hr",
+					"title": "Croatia",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu",
+					"x": "0.5802",
+					"y": "0.7252"
+				},				
+				{
+					"id": "hu",
+					"title": "Hungary",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu"
+				},
+				{
+					"id": "gr",
+					"title": "Greece",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "at",
+					"title": "Austria",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "si",
+					"title": "Slovenia",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "sk",
+					"title": "Slovakia",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "cz",
+					"title": "Czech Republic",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu"
+				},
+				{
+					"id": "fi",
+					"title": "Finland",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "ee",
+					"title": "Estonia",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "lv",
+					"title": "Latvia",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "lt",
+					"title": "Lithuania",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "uk",
+					"title": "United Kingdom",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "lefteu"
+				},
+				{
+					"id": "dk",
+					"title": "Denmark",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu"
+				},
+				{
+					"id": "ie",
+					"title": "Ireland",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},	
+				{
+					"id": "it",
+					"title": "Italy",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "founding", "eurozone"]
+				},
+				{
+					"id": "es",
+					"title": "Spain",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"x": "0.4097",
+					"y": "0.8113",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "nl",
+					"title": "The Netherlands",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "founding", "eurozone"]
+				},
+				{
+					"id": "be",
+					"title": "Belgium",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "founding", "eurozone"]
+				},
+				{
+					"id": "lu",
+					"title": "Luxembourg",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "founding", "eurozone"]
+				},
+				{
+					"id": "pl",
+					"title": "Poland",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu"
+				},
+				{
+					"id": "ro",
+					"title": "Romania",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu"
+				},
+				{
+					"id": "bg",
+					"title": "Bulgaria",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu"
+				},
+				{
+					"id": "se",
+					"title": "Sweden",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": "eu"
+				},
+				{
+					"id": "pt",
+					"title": "Portugal",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"],
+					"x": "0.3653",
+					"y": "0.8171"
+				},
+				{
+					"id": "mt",
+					"title": "Malta",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "cy",
+					"title": "Cyprus",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "eurozone"]
+				},
+				{
+					"id": "fr",
+					"title": "France",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p>",
+					"category": ["eu", "founding", "eurozone"]
+				},
+				{
+					"id": "de",
+					"title": "Germany",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p><p>Nullam ut lectus massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc lobortis pretium velit eu maximus. Integer a faucibus libero.</p><p>Ut id eleifend sem, faucibus consectetur ligula. Proin vel vestibulum dui. Sed rhoncus eleifend velit, a sodales eros auctor ut.</p>",
+					"category": ["eu", "founding", "eurozone"]
+				},
+				{
+					"id": "brussels",
+					"title": "Brussels",
+					"description": "<p>Donec et pretium justo, sodales finibus risus.</p>",
+					"fill": "#2A4670",
+					"pin": "pin-dot pin-label",
+					"label": "Brussels",
+					"lat": "50.838537",
+					"lng": "4.375576"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+    "mapwidth": 1080,
+    "mapheight": 863,
+    "categories": [],
+    "levels": [{
+        "id": "xxxxx",
+        "title": "TEST 1",
+        "minimap": "",
+        "map": "public/templates/assets/img/rotterdam_1_bevel.png",
+        "locations": [{
+                "id": "31230483",
+                "title": "Bastion Bone",
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus dui velit, et efficitur lorem sollicitudin nec. Donec euismod ornare neque non maximus. Curabitur malesuada vestibulum nisi, eget posuere mi vulputate vel. Nullam eu eleifend ipsum. Morbi et feugiat dui, et vestibulum justo. Donec massa ex, consequat eu dolor vel, egestas blandit tortor. Duis eleifend sollicitudin lacus, et condimentum tortor interdum sed. Quisque rhoncus nisi ut risus lacinia, eu facilisis nibh congue. Cras vehicula scelerisque ullamcorper. Donec in eros accumsan ligula ornare feugiat.</p>",
+                "x": "0.4999",
+                "y": "0.1111",
+                "label": "BB",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "zxzxzx",
+                "title": "Gedung O",
+                "description": "<p>Bioskop Mini.</p>",
+                "x": "0.3608",
+                "y": "0.2603",
+                "label": "O",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "zzzzz",
+                "title": "Gedung P",
+                "description": "<p>Aula.</p>",
+                "x": "0.4565",
+                "y": "0.5000",
+                "label": "P",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "xxxx",
+                "title": "Gedung B",
+                "description": "<p>Gedung B.</p>",
+                "x": "0.5258",
+                "y": "0.2256",
+                "label": "B",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "qqq",
+                "title": "Gedung E",
+                "description": "<p>Gedung E.</p>",
+                "x": "0.5924",
+                "y": "0.6038",
+                "label": "E",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "kkk",
+                "title": "Gedung K",
+                "description": "<p>Gedung K.</p>",
+                "x": "0.2828",
+                "y": "0.7878",
+                "label": "K",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "pppp",
+                "title": "Perpustakaan",
+                "description": "<p>Perpustakaan</p>",
+                "x": "0.4600",
+                "y": "0.7778",
+                "label": "Pp",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "tba",
+                "title": "Taman Baca Anak",
+                "description": "<p>Taman Baca Anak</p>",
+                "x": "0.4300",
+                "y": "0.7500",
+                "label": "TBA",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "museum",
+                "title": "Museum La Galigo",
+                "description": "<p>Museum La Galigo</p>",
+                "x": "0.1975",
+                "y": "0.3800",
+                "label": "M",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "crossroads1",
+                "title": "Crossroads",
+                "description": "<p>Persimpangan 1</p>",
+                "x": "0.4120",
+                "y": "0.2850",
+                "label": "X",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "crossroads1",
+                "title": "Crossroads",
+                "description": "<p>Persimpangan 1</p>",
+                "x": "0.4120",
+                "y": "0.2850",
+                "label": "X",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            },
+            {
+                "id": "crossroads2",
+                "title": "Crossroads",
+                "description": "<p>Persimpangan 2</p>",
+                "x": "0.4444",
+                "y": "0.7130",
+                "label": "X",
+                "pin": "circular pin-label pin-md pin-pulse",
+                "zoom": "3",
+                "link": "http://www.codecanyon.net/user/sekler",
+                "fill": "#480202"
+            }
+        ]
+
+    }]
+
+}
