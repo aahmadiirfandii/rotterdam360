@@ -42,7 +42,7 @@
                 </div>
                 <div class="icon icon-hover">
                     <a href="<?= site_url('siteplan') ?>">
-                        <img src="<?= templates('assets') ?>icon/virtual-tour.svg" width="40%">
+                        <img src="<?= templates('assets') ?>icon/virtual-tour-putih.svg" width="40%">
                         <p class="mt-2">Virtual Tour</p>
                     </a>
                 </div>

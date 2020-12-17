@@ -5,6 +5,9 @@ class Home extends MY_Controller
 {
     public function index()
     {
-        $this->load->view('public/home');
+        $view = array(
+            'title'     => 'Rotterdam Virtual Tour 360',
+        );
+        $this->load->view('public/home', $view);
     }
 }
