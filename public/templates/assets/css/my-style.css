@@ -552,7 +552,7 @@ section h1 {
     right: 1.5rem;
     width: 35vw;
     background-color: white;
-    height: 450px;
+    height: auto;
     padding: 25px;
     border-radius: 5px;
 }
