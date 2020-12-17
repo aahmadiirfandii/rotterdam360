@@ -32,7 +32,7 @@ if (!function_exists('admin_assets')) {
     function admin_assets($url = NULL)
     {
         $link = ($url) ? $url . '/' : '';
-        return base_url('templates/' . ADM) . '/' . $link;
+        return base_url('public/templates/' . ADM) . '/' . $link;
     }
 }
 

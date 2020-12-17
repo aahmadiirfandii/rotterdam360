@@ -140,7 +140,7 @@ class Crud extends CI_Model
         return $this->db->query($q);
     }
     // Run Query and get result as object
-    public function qa($q)
+    public function qo($q)
     {
         return $this->db->query($q)->result();
     }
