@@ -63,7 +63,8 @@ class Virtual_tour extends MY_Controller
         $response = array(
             "id"            => $scene->scene_id,
             "title"         => $scene->title,
-            "description"   => truncateWord($scene->description, 350)
+            "description"   => truncateWord($scene->description, 350),
+            "status"        => $scene->status
         );
         if ($scene) {
             return $this->_response(['success' => true, 'data' => $response, 'message' => 'Success.']);

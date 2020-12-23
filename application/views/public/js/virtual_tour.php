@@ -43,19 +43,19 @@
             }
         });
 
-        viewer.on('mousedown', function(event) {
-            // For pitch and yaw of center of viewer
-            console.log(viewer.getPitch(), viewer.getYaw());
-            // For pitch and yaw of mouse location
-            console.log(viewer.mouseEventToCoords(event));
-        });
+        // viewer.on('mousedown', function(event) {
+        //     // For pitch and yaw of center of viewer
+        //     console.log(viewer.getPitch(), viewer.getYaw());
+        //     // For pitch and yaw of mouse location
+        //     console.log(viewer.mouseEventToCoords(event));
+        // });
 
         $(document).on('click', '#btnInformasi', function() {
             detailBox("toggle");
 
             let urlParams = new URLSearchParams(window.location.search);
             let scene = urlParams.get('scene');
-            console.log(scene);
+            // console.log(scene);
             $.get('<?= site_url('virtual-tour/get-scene-detail') ?>', {
                     id: scene
                 })
@@ -65,6 +65,11 @@
                         $('#deskripsi').html(response.data.description);
                         $("#detailButton").attr("href", "<?= site_url('buildings/detail/') ?>" +
                             response.data.id);
+                        if (response.data.status == 'gedung') {
+                            $('#detail-btn-container').css('display', 'block');
+                        } else {
+                            $('#detail-btn-container').css('display', 'none');
+                        }
                     } else {
                         // alert(response.message);
                         setTimeout(function() {
@@ -79,7 +84,7 @@
 
         function detailBox(param) {
             var x = document.getElementById("infoBox");
-            console.log(param);
+            // console.log(param);
             if (param == 'moveScene') {
                 if (x.style.display === "block") {
                     x.style.display = "none";
