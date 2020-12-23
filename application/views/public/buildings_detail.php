@@ -10,6 +10,24 @@
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/my-style.css">
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/slider-img.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('<?= templates() ?>assets/img/pattern-1.png');
+        }
+
+        .back-btn {
+            font-size: 3.2em;
+            text-decoration: none;
+            line-height: 1;
+            color: inherit;
+            position: fixed;
+            top: 5px;
+        }
+
+        .back-btn:hover {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,9 +38,11 @@
         <a href="<?= site_url('home') ?>#section03">Location</a>
         <a href="<?= site_url('siteplan') ?>">Siteplan</a>
         <a href="<?= site_url('buildings') ?>">Buildings</a>
+        <a href="<?= site_url('virtual-tour') . '?scene=' . $setting->first_scene ?>">Virtual Tour</a>
     </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <a href="<?= site_url('buildings') ?>" class="pl-3 pr-3 back-btn">&lsaquo;</a>
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" style="margin-left: 5rem;">
             <img class="mr-2" src="<?= templates() ?>assets/img/logo-bi.png" height="55px">
             <img class="mr-3" src="<?= templates() ?>assets/img/logo-tutwuri.png" height="40px">
             <img class="" src="<?= templates() ?>assets/img/bpcb.png" width="40px">
@@ -38,13 +58,13 @@
         </div>
     </nav>
     <div class="container konten">
-        <p class="nama-tempat"> <i class="fa fa-home mr-2"></i> <span id="namaTempat" name="namaTempat"><?= $scene->title ?></span></p>
+        <p class="nama-tempat"> <i class="fa fa-vihara mr-2"></i> <span id="namaTempat" name="namaTempat"><?= $scene->title ?></span></p>
         <div class="card no-border">
             <div class="card-body">
-                <div class="ba-Slider mb-4" style="width:980px;height:558px;" unselectable='on' onselectstart='return false;' onmousedown='return false;'>
-                    <div id="before"><img src="<?= images('building') . $scene->present_photo ?>" width="980" height="558px" /></div>
+                <div id="sliderWrap" class="ba-Slider mb-4" unselectable='on' onselectstart='return false;' onmousedown='return false;'>
+                    <div id="before"><img src="<?= images('building') . $scene->present_photo ?>" id="slider1" /></div>
                     <div class="slider"></div>
-                    <div id="after"><img src="<?= images('building') . $scene->past_photo ?>" width="980" height="558px" /></div>
+                    <div id="after"><img src="<?= images('building') . $scene->past_photo ?>" id="slider2" /></div>
                 </div>
                 <div class="mb-2 px-4">
                     <h5>Deskripsi :</h5>
@@ -63,6 +83,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script src="<?= templates() ?>assets/js//popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
     <script>

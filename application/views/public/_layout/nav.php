@@ -8,6 +8,7 @@
         <a href="<?= site_url('home') ?>#section03">Location</a>
         <a href="<?= site_url('siteplan') ?>">Siteplan</a>
         <a href="<?= site_url('buildings') ?>">Buildings</a>
+        <a href="<?= site_url('virtual-tour') . '?scene=' . $setting->first_scene ?>">Virtual Tour</a>
     </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top navbar-bg-none">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">

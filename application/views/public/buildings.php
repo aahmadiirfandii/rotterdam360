@@ -2,16 +2,32 @@
 <html lang="en">
 
 <head>
-    <base href="../">
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+    <title><?= $title ?></title>
+
     <link rel="stylesheet" href="<?= templates() ?>assets/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/my-style.css">
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/slider-img.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
-    <title><?= $title ?></title>
+    <style>
+        body {
+            background-image: url('<?= templates() ?>assets/img/pattern-1.png');
+        }
+
+        .back-btn {
+            font-size: 3.2em;
+            text-decoration: none;
+            line-height: 1;
+            color: inherit;
+            position: fixed;
+            top: 5px;
+        }
+
+        .back-btn:hover {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,9 +38,11 @@
         <a href="<?= site_url('home') ?>#section03">Location</a>
         <a href="<?= site_url('siteplan') ?>">Siteplan</a>
         <a href="<?= site_url('buildings') ?>">Buildings</a>
+        <a href="<?= site_url('virtual-tour') . '?scene=' . $setting->first_scene ?>">Virtual Tour</a>
     </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <a href="#" class="pl-3 pr-3 back-btn" onclick="window.history.back();">&lsaquo;</a>
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" style="margin-left: 5rem;">
             <img class="mr-2" src="<?= templates() ?>assets/img/logo-bi.png" height="55px">
             <img class="mr-3" src="<?= templates() ?>assets/img/logo-tutwuri.png" height="40px">
             <img class="" src="<?= templates() ?>assets/img/bpcb.png" width="40px">
@@ -63,6 +81,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script src="<?= templates() ?>assets/js//popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
     <script>
@@ -130,12 +149,6 @@
                 x.style.display = "none";
             }
         }
-
-        const clickx = document.getElementById('pencet');
-
-        clickx.addEventListener('click', function() {
-            clickx.classList.toggle('Diam');
-        });
     </script>
     <script>
         function openNav() {
