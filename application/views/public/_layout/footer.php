@@ -1,5 +1,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="<?= templates('assets') ?>js//popper.min.js"></script>
+<script src="<?= templates('assets') ?>js/popper.min.js"></script>
 <script src="<?= templates('assets') ?>js/bootstrap.min.js"></script>
 
 <script>

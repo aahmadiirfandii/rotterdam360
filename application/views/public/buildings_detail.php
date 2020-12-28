@@ -57,35 +57,40 @@
             </ul>
         </div>
     </nav>
-    <div class="container konten">
-        <p class="nama-tempat"> <i class="fa fa-vihara mr-2"></i> <span id="namaTempat" name="namaTempat"><?= $scene->title ?></span></p>
-        <div class="card no-border">
-            <div class="card-body">
-                <div id="sliderWrap" class="ba-Slider mb-4" unselectable='on' onselectstart='return false;' onmousedown='return false;'>
-                    <div id="before"><img src="<?= images('building') . $scene->present_photo ?>" id="slider1" /></div>
-                    <div class="slider"></div>
-                    <div id="after"><img src="<?= images('building') . $scene->past_photo ?>" id="slider2" /></div>
-                </div>
-                <div class="mb-2 px-4">
-                    <h5>Deskripsi :</h5>
-                    <label id="deskripsiFoto" name="deskripsiFoto" class="text-justify">
-                        <?= $scene->description ?>
-                    </label>
-                </div>
-                <?php if ($scene->type != 'none') : ?>
-                    <div class="p-3 text-center">
-                        <a href="<?= site_url('virtual-tour') . '?scene=' . $scene->scene_id ?>" class="btn btn-danger">Lihat Foto 360</a>
+    <main id="swup">
+        <div class="container konten">
+            <p class="nama-tempat"> <i class="fa fa-vihara mr-2"></i> <span id="namaTempat" name="namaTempat"><?= $scene->title ?></span></p>
+            <div class="card no-border">
+                <div class="card-body">
+                    <div id="sliderWrap" class="ba-Slider mb-4" unselectable='on' onselectstart='return false;' onmousedown='return false;'>
+                        <div id="before"><img src="<?= images('building') . $scene->present_photo ?>" id="slider1" /></div>
+                        <div class="slider"></div>
+                        <div id="after"><img src="<?= images('building') . $scene->past_photo ?>" id="slider2" /></div>
                     </div>
-                <?php endif; ?>
+                    <div class="mb-2 px-4">
+                        <h5>Deskripsi :</h5>
+                        <label id="deskripsiFoto" name="deskripsiFoto" class="text-justify">
+                            <?= $scene->description ?>
+                        </label>
+                    </div>
+                    <?php if ($scene->type != 'none') : ?>
+                        <div class="p-3 text-center">
+                            <a href="<?= site_url('virtual-tour') . '?scene=' . $scene->scene_id ?>" class="btn btn-danger">Lihat Foto 360</a>
+                        </div>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-    <script src="<?= templates() ?>assets/js//popper.min.js"></script>
+    <script src="<?= templates() ?>assets/js/popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
+    <script src="<?= assets() ?>swup/swup.js"></script>
+    <script src="<?= assets() ?>swup/SwupSlideTheme.js"></script>
+    <script src="<?= assets() ?>swup/script.js"></script>
     <script>
         var moveSlider = false;
         $(document).ready(function() {

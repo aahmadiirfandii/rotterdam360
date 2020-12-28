@@ -57,33 +57,38 @@
             </ul>
         </div>
     </nav>
-    <div class="container konten mb-5">
-        <p class="nama-tempat">All Buildings</p>
-        <div class="card">
-            <div class="card-body">
-                <div class="row justify-content-center">
-                    <?php foreach ($scenes as $scene) { ?>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <img src="<?= images('building') . $scene->present_photo ?>" class="card-img-top" alt="<?= $scene->title ?>" height="200">
-                                <div class="card-body des-body">
-                                    <h5 class="card-title" id="namaGedung" name="namaGedung"><?= $scene->title ?></h5>
-                                    <p class="card-text" id="deskripsiGedung" name="deskripsi"><?= truncateWord($scene->description, 100) ?></p>
-                                    <a href="<?= site_url('buildings/detail/') . $scene->scene_id ?>" class="stretched-link"></a>
+    <main id="swup">
+        <div class="container konten mb-5">
+            <p class="nama-tempat">All Buildings</p>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <?php foreach ($scenes as $scene) { ?>
+                            <div class="col-md-4">
+                                <div class="card mb-4">
+                                    <img src="<?= images('building') . $scene->present_photo ?>" class="card-img-top" alt="<?= $scene->title ?>" height="200">
+                                    <div class="card-body des-body">
+                                        <h5 class="card-title" id="namaGedung" name="namaGedung"><?= $scene->title ?></h5>
+                                        <p class="card-text" id="deskripsiGedung" name="deskripsi"><?= truncateWord($scene->description, 100) ?></p>
+                                        <a href="<?= site_url('buildings/detail/') . $scene->scene_id ?>" class="stretched-link"></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php } ?>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-    <script src="<?= templates() ?>assets/js//popper.min.js"></script>
+    <script src="<?= templates() ?>assets/js/popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
+    <script src="<?= assets() ?>swup/swup.js"></script>
+    <script src="<?= assets() ?>swup/SwupSlideTheme.js"></script>
+    <script src="<?= assets() ?>swup/script.js"></script>
     <script>
         var moveSlider = false;
         $(document).ready(function() {
