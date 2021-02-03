@@ -10,7 +10,7 @@
     <link href="<?= templates('assets') ?>css/my-style.css" type="text/css" rel="stylesheet">
     <link href="<?= templates('assets') ?>css/slider-img.css" type="text/css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png"/>
     <?php if ($style) $this->load->view($style); ?>
 
 </head>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?= templates('assets') ?>css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?= templates('assets') ?>css/my-style.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png"/>
     <title><?= $title ?></title>
     <style>
         #myVideo {

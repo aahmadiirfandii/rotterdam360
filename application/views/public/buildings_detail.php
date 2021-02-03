@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/slider-img.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= templates() ?>assets/css/juxtapose.css">
+    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png"/>
     <style>
         body {
             background-image: url('<?= templates() ?>assets/img/pattern-3.png');
@@ -65,6 +66,7 @@
         div.jx-handle:hover div.jx-arrow.jx-right, div.jx-handle:active div.jx-arrow.jx-right{
             right: 3px;
         }
+
 
 
     </style>
@@ -136,8 +138,7 @@
             <!-- <p class="nama-tempat"> <i class="fa fa-vihara mr-2"></i> <span id="namaTempat" name="namaTempat"><?= $scene->title ?></span></p> -->
             <div class="card no-border">
                 <div class="card-body">
-
-                    <div class="juxtapose">
+                    <div class="juxtapose" style="">
                         <img src="<?= images('building') . $scene->present_photo ?>" />
                         <img src="<?= images('building') . $scene->past_photo ?>" />
                     </div>
@@ -229,62 +230,6 @@
 <!--     <script src="<?= assets() ?>swup/swup.js"></script>
     <script src="<?= assets() ?>swup/SwupSlideTheme.js"></script>
     <script src="<?= assets() ?>swup/script.js"></script> -->
-    <script>
-        var moveSlider = false;
-        $(document).ready(function() {
-            $(".ba-Slider").each(function(i) {
-                $(this).children(".slider").mousedown(function() {
-                    moveSlider = true;
-                    $(this).parent().children("#before").removeClass("ease");
-                    $(this).removeClass("ease");
-                });
-                $(this).children(".slider").mouseup(function() {
-                    moveSlider = false;
-                    $(this).parent().children("#before").addClass("ease");
-                    $(this).addClass("ease");
-                    var minmax = $(this).parent().width() / 8;
-                    if ($(this).parent().children("#before").width() > $(this).parent().width() - minmax) {
-                        $(this).parent().children("#before").width("100%");
-                        var sOffset = $(this).parent().width() - 16.5;
-                        $(this).css("left", sOffset);
-                    } else if ($(this).parent().children("#before").width() < minmax) {
-                        $(this).parent().children("#before").width(0);
-                        var sOffset = -16.5;
-                        $(this).css("left", sOffset);
-                    }
-
-                });
-
-                $(this).mouseup(function() {
-                    moveSlider = false;
-                    $(this).children("#before").addClass("ease");
-                    $(this).children(".slider").addClass("ease");
-                    var minmax = $(this).width() / 8;
-                    if ($(this).children("#before").width() > $(this).width() - minmax) {
-                        $(this).children("#before").width("100%");
-                        var sOffset = $(this).width() - 16.5;
-                        $(this).children(".slider").css("left", sOffset);
-                    } else if ($(this).children("#before").width() < minmax) {
-                        $(this).children("#before").width(0);
-                        var sOffset = -16.5;
-                        $(this).children(".slider").css("left", sOffset);
-                    }
-
-
-                });
-                $(this).mousemove(function(e) {
-                    if (moveSlider == true) {
-                        var pOffset = $(this).offset();
-                        var mouseX = e.pageX - pOffset.left;
-                        $(this).children("#before").width(mouseX - 0.5);
-                        var sOffset = mouseX - 16.5;
-                        $(this).children(".slider").css("left", sOffset);
-                    }
-
-                });
-            });
-        });
-    </script>
     <script>
         function toogleMenu() {
             var x = document.getElementById("sideMenu");

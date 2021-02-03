@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/my-style.css">
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/slider-img.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png"/>
     <style>
         body {
             background-image: url('<?= templates() ?>assets/img/pattern-3.png');
