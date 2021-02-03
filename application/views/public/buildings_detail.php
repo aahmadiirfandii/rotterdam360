@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/my-style.css">
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/slider-img.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+    <link rel="stylesheet" href="<?= templates() ?>assets/css/juxtapose.css">
     <style>
         body {
             background-image: url('<?= templates() ?>assets/img/pattern-3.png');
@@ -29,6 +28,45 @@
         .back-btn:hover {
             text-decoration: none;
         }
+
+        div.jx-control{
+            width: 3px;
+        }
+
+        div .jx-controller{
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;
+            margin-left: -10px;
+            left: 0;
+        }
+
+        div .jx-controller,div.jx-control{
+            background-color: #DC3546;
+        }
+
+        div.jx-arrow.jx-right,div.jx-arrow.jx-left{
+            color:  #fff;
+            z-index: 1
+        }
+
+        div.jx-arrow.jx-left{
+            left: 5px;
+        }
+
+        div.jx-arrow.jx-right{
+            right: 5px;
+        }
+
+        div.jx-handle:hover div.jx-arrow.jx-left, div.jx-handle:active div.jx-arrow.jx-left{
+            left: 3px;
+        }
+
+        div.jx-handle:hover div.jx-arrow.jx-right, div.jx-handle:active div.jx-arrow.jx-right{
+            right: 3px;
+        }
+
+
     </style>
 </head>
 
@@ -98,18 +136,13 @@
             <!-- <p class="nama-tempat"> <i class="fa fa-vihara mr-2"></i> <span id="namaTempat" name="namaTempat"><?= $scene->title ?></span></p> -->
             <div class="card no-border">
                 <div class="card-body">
-                    <!-- <div id="sliderWrap" class="ba-Slider mb-4" unselectable='on' onselectstart='return false;' onmousedown='return false;'>
-                        <div id="before"><img src="<?= images('building') . $scene->present_photo ?>" id="slider1" /></div>
-                        <div class="slider"></div>
-                        <div id="after"><img src="<?= images('building') . $scene->past_photo ?>" id="slider2" /></div>
-                    </div> -->
 
                     <div class="juxtapose">
                         <img src="<?= images('building') . $scene->present_photo ?>" />
                         <img src="<?= images('building') . $scene->past_photo ?>" />
                     </div>
 
-                    <div class="mb-2 px-4">
+                    <div class="mb-2 mt-4 px-4">
                         <h5>Deskripsi :</h5>
                         <label id="deskripsiFoto" name="deskripsiFoto" class="text-justify">
                             <?= $scene->description ?>
@@ -192,7 +225,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="<?= templates() ?>assets/js/popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
-    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+    <script src="<?= templates() ?>assets/js/juxtapose.min.js"></script>
 <!--     <script src="<?= assets() ?>swup/swup.js"></script>
     <script src="<?= assets() ?>swup/SwupSlideTheme.js"></script>
     <script src="<?= assets() ?>swup/script.js"></script> -->
