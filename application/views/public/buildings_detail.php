@@ -12,7 +12,7 @@
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
     <style>
         body {
-            background-image: url('<?= templates() ?>assets/img/pattern-1.png');
+            background-image: url('<?= templates() ?>assets/img/pattern-3.png');
         }
 
         .back-btn {
