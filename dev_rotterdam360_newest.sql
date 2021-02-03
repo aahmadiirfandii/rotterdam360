@@ -11,7 +11,7 @@
  Target Server Version : 50724
  File Encoding         : 65001
 
- Date: 03/02/2021 10:19:57
+ Date: 03/02/2021 11:36:00
 */
 
 SET NAMES utf8mb4;
@@ -41,7 +41,7 @@ CREATE TABLE `admin`  (
 -- ----------------------------
 -- Records of admin
 -- ----------------------------
-INSERT INTO `admin` VALUES (11339179, 'Admin', '0812345678', 'admin@gmail.com', 'admin', '$2y$10$ssZxCins.jQvwNnslJuayuUlO3VuTF54Yd/cFwzrQzXT5GVQh4K8O', 0, 'Admin', '', 'e4g5alae240qa1uv42uqcpiq1njl68ia', '2016-12-20 00:00:00', '2020-12-21 21:15:12');
+INSERT INTO `admin` VALUES (11339179, 'Admin', '0812345678', 'admin@gmail.com', 'admin', '$2y$10$ssZxCins.jQvwNnslJuayuUlO3VuTF54Yd/cFwzrQzXT5GVQh4K8O', 0, 'Admin', '', 'qj7vhqpra1d09gees3qshckquhlebh6s', '2016-12-20 00:00:00', '2021-02-03 11:02:13');
 
 -- ----------------------------
 -- Table structure for hotspots
@@ -63,7 +63,7 @@ CREATE TABLE `hotspots`  (
   INDEX `scene_id`(`scene_id`) USING BTREE,
   CONSTRAINT `hotspots_ibfk_1` FOREIGN KEY (`main_scene`) REFERENCES `scenes` (`scene_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `hotspots_ibfk_2` FOREIGN KEY (`scene_id`) REFERENCES `scenes` (`scene_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 41 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 49 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of hotspots
@@ -100,10 +100,18 @@ INSERT INTO `hotspots` VALUES (33, 33, 'bastion-bone', -4.19827, -40.8579, 'scen
 INSERT INTO `hotspots` VALUES (34, 34, 'gedung-b', 4.03404, -40.2974, 'scene', 'Bastion Bone', 'bastion-bone', '2020-12-17 02:50:44', '2020-12-17 02:50:45');
 INSERT INTO `hotspots` VALUES (35, 35, 'gedung-e', -1.43393, 144.823, 'scene', 'Gedung K', 'gedung-k', '2020-12-17 03:00:18', '2020-12-17 03:00:27');
 INSERT INTO `hotspots` VALUES (36, 36, 'taman-baca-anak', 4.67239, 174.495, 'scene', 'Gedung J', 'gedung-j', '2020-12-17 03:02:14', '2020-12-17 03:02:15');
-INSERT INTO `hotspots` VALUES (37, 37, 'perpustakaan', -7.61312, 58.4905, 'scene', 'Gedung J', 'gedung-j', '2020-12-17 03:02:14', '2020-12-17 03:03:14');
+INSERT INTO `hotspots` VALUES (37, 37, 'perpustakaan', 0.896552, 143.7, 'scene', 'Gedung J', 'gedung-j', '2020-12-17 03:02:14', '2021-02-03 11:14:19');
 INSERT INTO `hotspots` VALUES (38, 38, 'gedung-j', 0.863638, 115.093, 'scene', 'Museum La Galigo', 'museum-la-galigo', '2020-12-17 03:02:14', '2020-12-17 03:04:49');
 INSERT INTO `hotspots` VALUES (39, 39, 'gedung-k', -0.533222, -111.143, 'scene', 'Gedung E', 'gedung-e', '2020-12-17 03:06:47', '2020-12-17 03:06:59');
 INSERT INTO `hotspots` VALUES (40, 40, 'gedung-k', -1.47466, -166.212, 'scene', 'Pintu Masuk', 'crossroad-1', '2020-12-17 03:09:50', '2020-12-17 03:10:07');
+INSERT INTO `hotspots` VALUES (41, 41, 'gedung-b', -0.968327, -3.09769, 'scene', 'Layanan Publik', 'layanan-publik', '2021-02-03 11:22:11', '2021-02-03 11:22:23');
+INSERT INTO `hotspots` VALUES (42, 42, 'layanan-publik', 10.7414, 112.273, 'scene', 'Gedung B', 'gedung-b', '2021-02-03 11:23:39', '2021-02-03 11:24:34');
+INSERT INTO `hotspots` VALUES (43, 43, 'crossroad-1', -0.615282, -17.7576, 'scene', 'Pameran Tetap BPCB', 'pameran-tetap', '2021-02-03 11:25:49', '2021-02-03 11:26:01');
+INSERT INTO `hotspots` VALUES (44, 44, 'pameran-tetap', 1.25181, 83.6725, 'scene', 'Pintu Masuk', 'crossroad-1', '2021-02-03 11:27:02', '2021-02-03 11:27:13');
+INSERT INTO `hotspots` VALUES (45, 45, 'gedung-b', 2.19453, -147.161, 'scene', 'Pameran Tetap BPCB', 'pameran-tetap', '2021-02-03 11:28:42', '2021-02-03 11:28:52');
+INSERT INTO `hotspots` VALUES (46, 46, 'gedung-k', 0.313437, -147.033, 'scene', 'Pameran Tetap BPCB', 'pameran-tetap', '2021-02-03 11:30:12', '2021-02-03 11:30:21');
+INSERT INTO `hotspots` VALUES (47, 47, 'gedung-k', 15.7004, -2.30369, 'scene', 'Storage BPCB', 'storage-bpcb', '2021-02-03 11:32:04', '2021-02-03 11:32:05');
+INSERT INTO `hotspots` VALUES (48, 48, 'storage-bpcb', -1.25506, -30.0339, 'scene', 'Gedung K', 'gedung-k', '2021-02-03 11:32:42', '2021-02-03 11:33:03');
 
 -- ----------------------------
 -- Table structure for scenes
@@ -129,7 +137,7 @@ CREATE TABLE `scenes`  (
   `uat` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0),
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `scene_id`(`scene_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 26 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 29 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of scenes
@@ -157,6 +165,9 @@ INSERT INTO `scenes` VALUES (22, 20, 'bioskop-mini', 'BM', 'Bioskop Mini', 170, 
 INSERT INTO `scenes` VALUES (23, 21, 'museum-la-galigo', 'MLG', 'Museum La Galigo', 170, 0, 0, 'equirectangular', 'museum.jpg', '0.2030,0.4112', 'ruangan', '', '', '', '2020-12-16 19:07:45', '2020-12-17 03:15:28');
 INSERT INTO `scenes` VALUES (24, 22, 'aula', 'AU', 'Aula', 170, 0, 0, 'equirectangular', 'aula.jpg', '0.5250,0.4795', 'ruangan', '', '', '', '2020-12-16 19:45:26', '2020-12-17 03:15:29');
 INSERT INTO `scenes` VALUES (25, 23, 'bastion-bone', 'BB', 'Bastion Bone', 170, 0, 0, 'equirectangular', 'bastion_bone.jpg', '0.4983,0.0695', 'luar_ruangan', '', '', '', '2020-12-16 19:52:38', '2020-12-17 03:15:30');
+INSERT INTO `scenes` VALUES (26, 24, 'pameran-tetap', 'PT', 'Pameran Tetap BPCB', 170, 0, 0, 'equirectangular', 'gedung_p_dalam.jpg', '0.4302,0.4806', 'ruangan', '', NULL, NULL, '2021-02-03 11:08:49', '2021-02-03 11:11:53');
+INSERT INTO `scenes` VALUES (27, 25, 'layanan-publik', 'LP', 'Layanan Publik', 170, 0, 0, 'equirectangular', 'gedung_b_dalam.jpg', '0.5314,0.1631', 'ruangan', '', NULL, NULL, '2021-02-03 11:16:19', '2021-02-03 11:20:28');
+INSERT INTO `scenes` VALUES (28, 26, 'storage-bpcb', 'SB', 'Storage BPCB', 170, 0, 0, 'equirectangular', 'gedung_k_dalam.jpg', '0.3555,0.8086', 'ruangan', '', NULL, NULL, '2021-02-03 11:18:34', '2021-02-03 11:19:40');
 
 -- ----------------------------
 -- Table structure for setting
