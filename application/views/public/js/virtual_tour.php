@@ -15,6 +15,7 @@
                 <?php foreach ($scenes as $scene) { ?> "<?= $scene->scene_id ?>": {
                         // "mouseZoom": false,
                         "type": "<?= $scene->type ?>",
+                        "autoRotate": -4,
                         "panorama": "<?= images() . $scene->panorama ?>",
                         "title": "<?= $scene->title ?>",
                         "hfov": <?= $scene->hfov ?>,

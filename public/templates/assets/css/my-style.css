@@ -413,7 +413,8 @@ section h1 {
 }
 
 .konten {
-    margin-top: 6rem;
+    margin-top: 18rem;
+    /*margin-top: 1rem;*/
 }
 
 .breadcrumb {
@@ -421,28 +422,45 @@ section h1 {
 }
 
 .sidenav {
-    height: 100%;
+    height: 100vh;
     width: 0;
     position: fixed;
     z-index: 1031;
     top: 0;
     right: 0;
-    background-color: #fff;
+    background: rgba(255,255,255,.6);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    box-shadow: 2px 2px 15px -8px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.sidenav::before{
+    content: "";
+    width: 300px;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 1);
+    filter: blur(60px);
+    margin: -20px;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 500;
     color: #202020;
     display: block;
     transition: 0.3s;
     margin-bottom: 10px;
+    z-index: 1;
 }
 
 .sidenav a:hover {
@@ -517,17 +535,19 @@ section h1 {
 
 #wrapDetailInformasi {
     position: absolute;
-    top: 4.5rem;
+    bottom: 1.5rem;
     right: 1.5rem;
 }
 
 #btnInformasi {
     background-color: white;
     border-color: white;
-    padding: 15px 40px;
+    padding: 9px 25px;
     color: #212121;
     font-weight: 600;
     box-shadow: 2px 2px 15px -8px rgba(0, 0, 0, 0.21);
+    border-radius: 30px;
+    color: #202020
 }
 
 #btnAll {
@@ -548,7 +568,7 @@ section h1 {
 
 #infoBox {
     position: absolute;
-    top: 8.3rem;
+    bottom: 5rem;
     right: 1.5rem;
     width: 35vw;
     background-color: white;
@@ -570,6 +590,80 @@ section h1 {
     height: auto;
 }
 
+.background-nav{
+    height: 280px;
+    background: url(../img/header-gedung.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: none;
+}
+
+.background-nav-half{
+    height: 70px;
+    background: url(../img/header-gedung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: none;
+}
+
+.footer-wrap{
+    background: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: none;
+}
+
+.burger-menu{
+    font-size:30px;
+    cursor:pointer;
+    position: absolute;
+    top: 10px;
+    right: 1rem;
+    color: white;
+}
+
+.back-btn{
+    color: white !important;
+    position: absolute !important;
+}
+
+.btn-lihat360{
+    padding: .5rem 1.5rem;
+}
+
+.logo-wrap{
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 89.5px);
+}
+
+#navbar-half,#navbar-full{
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.4);
+}
+
+.informasi-gedung{
+    position: absolute;
+    top: calc(50% - 44px);
+    left:
+}
+
+.footer-wrap{
+    padding: 4.5rem 0rem;
+}
+
+.clr-white{
+    color: #fff;
+}
+
+.bg-black{
+    background-color: #2E3B55;
+}
+
+.btn-lihat-detail{
+    padding: .5rem 1.5rem;
+}
 
 @media (max-width: 1024px) {
 
