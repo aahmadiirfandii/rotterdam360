@@ -67,7 +67,9 @@
             right: 3px;
         }
 
-
+        .juxtapose{
+            width: 70% !important;
+        }
 
     </style>
 </head>
@@ -138,7 +140,7 @@
             <!-- <p class="nama-tempat"> <i class="fa fa-vihara mr-2"></i> <span id="namaTempat" name="namaTempat"><?= $scene->title ?></span></p> -->
             <div class="card no-border">
                 <div class="card-body">
-                    <div class="juxtapose" style="">
+                    <div class="juxtapose mr-auto ml-auto">
                         <img src="<?= images('building') . $scene->present_photo ?>" />
                         <img src="<?= images('building') . $scene->past_photo ?>" />
                     </div>
