@@ -11,10 +11,23 @@
     <link rel="stylesheet" type="text/css" href="<?= templates('assets') ?>css/my-style.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
     <title><?= $title ?></title>
+    <style>
+        #myVideo {
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: auto;
+        }
+    </style>
 </head>
 
 <body>
     <section id="section01" class="demo">
+        <video autoplay muted loop id="myVideo">
+          <source src="<?= templates('assets') ?>video/video_bg2.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
         <div class="container">
             <img src="<?= templates('assets') ?>img/logo-bi.png" width="120px">
             <img class="ml-1" src="<?= templates('assets') ?>img/logo-tutwuri.png" width="52px">
