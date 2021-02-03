@@ -70,23 +70,23 @@
         </div>
     </nav>
 
-    <nav id="navbar-half" class="navbar navbar-expand-md navbar-light bg-dark fixed-top background-nav-half" style="display: none; height: 70px">
+    <nav id="navbar-half" class="navbar navbar-expand-md navbar-light bg-dark fixed-top background-nav-half" style="display: none; height: 50px">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <a href="<?= site_url('buildings') ?>" class="pl-3 pr-3 back-btn">&lsaquo;</a>
+            <a href="<?= site_url('buildings') ?>" class="pl-3 pr-3 back-btn back-btn-half">&lsaquo;</a>
         </div>
         <div class="mx-auto order-0">
         </div>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <span id="burgerMenuHalf" class="pr-3 burger-menu" style="" onclick="openNav()">&#9776;</span>
+                    <span id="burgerMenuHalf" class="pr-3 burger-menu burger-menu-half" style="" onclick="openNav()">&#9776;</span>
                 </li>
             </ul>
         </div>
         <div class="">
             <div class="row text-center justify-content-center">
-                <div class="col-8" style="margin-top: .5rem;">
-                    <h2 style="color: white">Fort Rotterdam</h2>
+                <div class="col-8" style="margin-top: 0rem;">
+                    <h4 style="color: white">Fort Rotterdam</h4>
                 </div>
             </div>
         </div>
