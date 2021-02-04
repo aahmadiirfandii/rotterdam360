@@ -16,7 +16,7 @@
         #myVideo {
           position: fixed;
           right: 0;
-          bottom: 0;
+          bottom: 8px;
           width: 100%;
           height: auto;
         }
