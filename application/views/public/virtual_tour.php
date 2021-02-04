@@ -13,5 +13,5 @@
     </p>
 </div>
 <div id="logo-wrap">
-    <img src="<?= templates() ?>assets/img/logo-bi-putih.png" width="120">
+    <!-- <img src="<?= templates() ?>assets/img/logo-bi-putih.png" width="120"> -->
 </div>

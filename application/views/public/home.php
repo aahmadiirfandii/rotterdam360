@@ -20,6 +20,11 @@
           width: 100%;
           height: auto;
         }
+
+        .logo-wrapper{
+            position: absolute;
+            top: 0;
+        }
     </style>
 </head>
 
@@ -30,9 +35,12 @@
           Your browser does not support HTML5 video.
         </video>
         <div class="container">
-            <img src="<?= templates('assets') ?>img/logo-bi.png" width="120px">
-            <img class="ml-1" src="<?= templates('assets') ?>img/logo-tutwuri.png" width="52px">
-            <img class="ml-3" src="<?= templates('assets') ?>img/bpcb.png" width="52px">
+            <div class="logo-wrapper">
+                <img src="<?= templates('assets') ?>img/logo-bi.png" width="120px">
+                <img class="ml-1" src="<?= templates('assets') ?>img/logo-tutwuri.png" width="52px">
+                <img class="ml-3" src="<?= templates('assets') ?>img/bpcb.png" width="52px">
+            </div>
+
             <div class="judul-wrapper">
                 <p class="judulx">Fort Rotterdam</p>
                 <p class="des-judulx">Benteng Ujung Pandang</p>
