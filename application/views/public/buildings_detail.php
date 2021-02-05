@@ -216,8 +216,8 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center py-2 bg-black">
+        <div class="">
+            <div class="text-center py-2 bg-black">
                 <span class="clr-white">Design with ♡ by Upana Studio</span>
             </div>
         </div>
