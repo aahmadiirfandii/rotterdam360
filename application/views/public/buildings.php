@@ -171,7 +171,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 text-center py-2 bg-black">
+        <div class="">
+            <div class="col-12 text-center py-2 bg-black">
             <span class="clr-white">Design with ♡ by Upana Studio</span>
         </div>
     </footer>
@@ -181,9 +182,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="<?= templates() ?>assets/js/popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
-    <!--     <script src="<?= assets() ?>swup/swup.js"></script>
-    <script src="<?= assets() ?>swup/SwupSlideTheme.js"></script>
-    <script src="<?= assets() ?>swup/script.js"></script> -->
     <script>
         var moveSlider = false;
         $(document).ready(function() {
@@ -266,10 +264,10 @@
     <script>
         $(window).scroll(function(event) {
             var scroll = $(window).scrollTop();
-            if (scroll > 150) {
+            if (scroll > 110) {
                 document.getElementById("navbar-full").style.display = "none";
                 document.getElementById("navbar-half").style.display = "block";
-            } else if (scroll < 150) {
+            } else if (scroll < 110) {
                 document.getElementById("navbar-full").style.display = "block";
                 document.getElementById("navbar-half").style.display = "none";
             }
