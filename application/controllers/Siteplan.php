@@ -42,10 +42,11 @@ class Siteplan extends MY_Controller
                 $detail['pin']          = "circular pin-label pin-md pin-pulse";
                 if ($scenes->panorama) {
                     $detail['link']     = site_url('virtual-tour') . '?scene=' . $scenes->scene_id;
+                    $detail['fill']     = "#022548";
                 } else {
-                    $detail['link']     = '';
+                    $detail['fill']     = "#480202";
+                    $detail['link']     = site_url('buildings/detail/') . $scenes->scene_id;
                 }
-                $detail['fill']         = "#480202";
 
                 $mapp['locations'][]    = $detail;
             }

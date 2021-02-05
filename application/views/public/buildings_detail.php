@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/slider-img.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= templates() ?>assets/css/juxtapose.css">
-    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png"/>
+    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png" />
     <style>
         body {
             background-image: url('<?= templates() ?>assets/img/pattern-3.png');
@@ -30,11 +30,11 @@
             text-decoration: none;
         }
 
-        div.jx-control{
+        div.jx-control {
             width: 3px;
         }
 
-        div .jx-controller{
+        div .jx-controller {
             border-radius: 50px;
             width: 60px;
             height: 60px;
@@ -42,35 +42,38 @@
             left: 0;
         }
 
-        div .jx-controller,div.jx-control{
+        div .jx-controller,
+        div.jx-control {
             background-color: #DC3546;
         }
 
-        div.jx-arrow.jx-right,div.jx-arrow.jx-left{
-            color:  #fff;
+        div.jx-arrow.jx-right,
+        div.jx-arrow.jx-left {
+            color: #fff;
             z-index: 1
         }
 
-        div.jx-arrow.jx-left{
+        div.jx-arrow.jx-left {
             left: 5px;
         }
 
-        div.jx-arrow.jx-right{
+        div.jx-arrow.jx-right {
             right: 5px;
         }
 
-        div.jx-handle:hover div.jx-arrow.jx-left, div.jx-handle:active div.jx-arrow.jx-left{
+        div.jx-handle:hover div.jx-arrow.jx-left,
+        div.jx-handle:active div.jx-arrow.jx-left {
             left: 3px;
         }
 
-        div.jx-handle:hover div.jx-arrow.jx-right, div.jx-handle:active div.jx-arrow.jx-right{
+        div.jx-handle:hover div.jx-arrow.jx-right,
+        div.jx-handle:active div.jx-arrow.jx-right {
             right: 3px;
         }
 
-        .juxtapose{
+        .juxtapose {
             width: 70% !important;
         }
-
     </style>
 </head>
 
@@ -167,7 +170,7 @@
                 <div class="row">
                     <div class="col-4">
                         <h2 class="clr-white">Fort Rotterdam</h2>
-                        <span class="clr-white" >©Fort Rotterdam 2021 - Makassar, Indonesia</span>
+                        <span class="clr-white">©Fort Rotterdam 2021 - Makassar, Indonesia</span>
                         <div id="logo-wrap-footer" class="mt-3">
                             <img src="<?= templates('assets') ?>img/logo-bi-putih.png" height="50px">
                             <img class="ml-1" src="<?= templates('assets') ?>img/logo-tutwuri.png" height="40px">
@@ -229,9 +232,6 @@
     <script src="<?= templates() ?>assets/js/popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
     <script src="<?= templates() ?>assets/js/juxtapose.min.js"></script>
-<!--     <script src="<?= assets() ?>swup/swup.js"></script>
-    <script src="<?= assets() ?>swup/SwupSlideTheme.js"></script>
-    <script src="<?= assets() ?>swup/script.js"></script> -->
     <script>
         function toogleMenu() {
             var x = document.getElementById("sideMenu");
@@ -256,13 +256,12 @@
         }
     </script>
     <script>
-        $(window).scroll(function (event) {
+        $(window).scroll(function(event) {
             var scroll = $(window).scrollTop();
-            if (scroll>150) {
+            if (scroll > 110) {
                 document.getElementById("navbar-full").style.display = "none";
                 document.getElementById("navbar-half").style.display = "block";
-            }
-            else if (scroll<150) {
+            } else if (scroll < 110) {
                 document.getElementById("navbar-full").style.display = "block";
                 document.getElementById("navbar-half").style.display = "none";
             }

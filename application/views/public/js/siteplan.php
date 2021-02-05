@@ -7,6 +7,7 @@
         $.get('<?= site_url('siteplan/get-spots') ?>')
             .done(function(response) {
                 if (response.success) {
+                    console.log(response);
                     var mapplic = $('#mapplic').mapplic({
                         source: response.data,
                         sidebar: false,
@@ -17,7 +18,7 @@
                         zoombuttons: false,
                         fullscreen: false,
                         smartip: true,
-                        moretext: "Lihat Foto 360"
+                        moretext: "See more"
                     });
                 } else {
                     // alert(response.message);
