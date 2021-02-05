@@ -11,7 +11,7 @@
  Target Server Version : 50724
  File Encoding         : 65001
 
- Date: 03/02/2021 11:36:00
+ Date: 05/02/2021 11:37:55
 */
 
 SET NAMES utf8mb4;
@@ -104,8 +104,8 @@ INSERT INTO `hotspots` VALUES (37, 37, 'perpustakaan', 0.896552, 143.7, 'scene',
 INSERT INTO `hotspots` VALUES (38, 38, 'gedung-j', 0.863638, 115.093, 'scene', 'Museum La Galigo', 'museum-la-galigo', '2020-12-17 03:02:14', '2020-12-17 03:04:49');
 INSERT INTO `hotspots` VALUES (39, 39, 'gedung-k', -0.533222, -111.143, 'scene', 'Gedung E', 'gedung-e', '2020-12-17 03:06:47', '2020-12-17 03:06:59');
 INSERT INTO `hotspots` VALUES (40, 40, 'gedung-k', -1.47466, -166.212, 'scene', 'Pintu Masuk', 'crossroad-1', '2020-12-17 03:09:50', '2020-12-17 03:10:07');
-INSERT INTO `hotspots` VALUES (41, 41, 'gedung-b', -0.968327, -3.09769, 'scene', 'Layanan Publik', 'layanan-publik', '2021-02-03 11:22:11', '2021-02-03 11:22:23');
-INSERT INTO `hotspots` VALUES (42, 42, 'layanan-publik', 10.7414, 112.273, 'scene', 'Gedung B', 'gedung-b', '2021-02-03 11:23:39', '2021-02-03 11:24:34');
+INSERT INTO `hotspots` VALUES (41, 41, 'gedung-b', -0.968327, -3.09769, 'scene', 'Pelayanan Publik', 'pelayanan-publik', '2021-02-03 11:22:11', '2021-02-05 11:35:13');
+INSERT INTO `hotspots` VALUES (42, 42, 'pelayanan-publik', 10.7414, 112.273, 'scene', 'Gedung B', 'gedung-b', '2021-02-03 11:23:39', '2021-02-03 11:24:34');
 INSERT INTO `hotspots` VALUES (43, 43, 'crossroad-1', -0.615282, -17.7576, 'scene', 'Pameran Tetap BPCB', 'pameran-tetap', '2021-02-03 11:25:49', '2021-02-03 11:26:01');
 INSERT INTO `hotspots` VALUES (44, 44, 'pameran-tetap', 1.25181, 83.6725, 'scene', 'Pintu Masuk', 'crossroad-1', '2021-02-03 11:27:02', '2021-02-03 11:27:13');
 INSERT INTO `hotspots` VALUES (45, 45, 'gedung-b', 2.19453, -147.161, 'scene', 'Pameran Tetap BPCB', 'pameran-tetap', '2021-02-03 11:28:42', '2021-02-03 11:28:52');
@@ -166,7 +166,7 @@ INSERT INTO `scenes` VALUES (23, 21, 'museum-la-galigo', 'MLG', 'Museum La Galig
 INSERT INTO `scenes` VALUES (24, 22, 'aula', 'AU', 'Aula', 170, 0, 0, 'equirectangular', 'aula.jpg', '0.5250,0.4795', 'ruangan', '', '', '', '2020-12-16 19:45:26', '2020-12-17 03:15:29');
 INSERT INTO `scenes` VALUES (25, 23, 'bastion-bone', 'BB', 'Bastion Bone', 170, 0, 0, 'equirectangular', 'bastion_bone.jpg', '0.4983,0.0695', 'luar_ruangan', '', '', '', '2020-12-16 19:52:38', '2020-12-17 03:15:30');
 INSERT INTO `scenes` VALUES (26, 24, 'pameran-tetap', 'PT', 'Pameran Tetap BPCB', 170, 0, 0, 'equirectangular', 'gedung_p_dalam.jpg', '0.4302,0.4806', 'ruangan', '', NULL, NULL, '2021-02-03 11:08:49', '2021-02-03 11:11:53');
-INSERT INTO `scenes` VALUES (27, 25, 'layanan-publik', 'LP', 'Layanan Publik', 170, 0, 0, 'equirectangular', 'gedung_b_dalam.jpg', '0.5314,0.1631', 'ruangan', '', NULL, NULL, '2021-02-03 11:16:19', '2021-02-03 11:20:28');
+INSERT INTO `scenes` VALUES (27, 25, 'pelayanan-publik', 'PP', 'Pelayanan Publik', 170, 0, 0, 'equirectangular', 'gedung_b_dalam.jpg', '0.5314,0.1631', 'ruangan', '', NULL, NULL, '2021-02-03 11:16:19', '2021-02-05 11:34:49');
 INSERT INTO `scenes` VALUES (28, 26, 'storage-bpcb', 'SB', 'Storage BPCB', 170, 0, 0, 'equirectangular', 'gedung_k_dalam.jpg', '0.3555,0.8086', 'ruangan', '', NULL, NULL, '2021-02-03 11:18:34', '2021-02-03 11:19:40');
 
 -- ----------------------------

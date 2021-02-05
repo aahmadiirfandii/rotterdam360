@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/my-style.css">
     <link rel="stylesheet" type="text/css" href="<?= templates() ?>assets/css/slider-img.css">
     <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png"/>
+    <link rel="icon" type="image/png" href="<?= templates('assets') ?>img/favicon.png" />
     <style>
         body {
             background-image: url('<?= templates() ?>assets/img/pattern-3.png');
@@ -122,7 +122,7 @@
                 <div class="row">
                     <div class="col-4">
                         <h2 class="clr-white">Fort Rotterdam</h2>
-                        <span class="clr-white" >©Fort Rotterdam 2021 - Makassar, Indonesia</span>
+                        <span class="clr-white">©Fort Rotterdam 2021 - Makassar, Indonesia</span>
                         <div id="logo-wrap-footer" class="mt-3">
                             <img src="<?= templates('assets') ?>img/logo-bi-putih.png" height="50px">
                             <img class="ml-1" src="<?= templates('assets') ?>img/logo-tutwuri.png" height="40px">
@@ -171,10 +171,8 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center py-2 bg-black">
-                <span class="clr-white">Design with ♡ by Upana Studio</span>
-            </div>
+        <div class="col-12 text-center py-2 bg-black">
+            <span class="clr-white">Design with ♡ by Upana Studio</span>
         </div>
     </footer>
 
@@ -183,7 +181,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="<?= templates() ?>assets/js/popper.min.js"></script>
     <script src="<?= templates() ?>assets/js/bootstrap.min.js"></script>
-<!--     <script src="<?= assets() ?>swup/swup.js"></script>
+    <!--     <script src="<?= assets() ?>swup/swup.js"></script>
     <script src="<?= assets() ?>swup/SwupSlideTheme.js"></script>
     <script src="<?= assets() ?>swup/script.js"></script> -->
     <script>
@@ -266,13 +264,12 @@
         }
     </script>
     <script>
-        $(window).scroll(function (event) {
+        $(window).scroll(function(event) {
             var scroll = $(window).scrollTop();
-            if (scroll>150) {
+            if (scroll > 150) {
                 document.getElementById("navbar-full").style.display = "none";
                 document.getElementById("navbar-half").style.display = "block";
-            }
-            else if (scroll<150) {
+            } else if (scroll < 150) {
                 document.getElementById("navbar-full").style.display = "block";
                 document.getElementById("navbar-half").style.display = "none";
             }
