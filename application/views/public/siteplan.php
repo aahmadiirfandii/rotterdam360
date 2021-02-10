@@ -15,5 +15,24 @@
         </div> -->
         <div style="margin-top: 3.5rem;" id="mapplic">
         </div>
+        <div style="position: absolute; top: 70px; left: 40px;padding: 20px; background-color: rgba(255,255,255,.85); border-radius: 5px;width: 17vw">
+            <h4 style="color: #202020">Legenda:</h4>
+            <div class="row mt-3">
+                <div class="col-2">
+                    <div style="width: 20px;height: 20px; background-color: #032548; border-radius: 30px;"></div>
+                </div>
+                <div class="col-10 m-auto">
+                    <p>Ada foto panorama</p>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-2">
+                    <div style="width: 20px;height: 20px; background-color: #480202; border-radius: 30px;"></div>
+                </div>
+                <div class="col-10 m-auto">
+                    <p>Tidak ada foto panorama</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
