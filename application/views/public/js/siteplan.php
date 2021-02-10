@@ -18,7 +18,7 @@
                         zoombuttons: false,
                         fullscreen: false,
                         smartip: true,
-                        moretext: "See more"
+                        moretext: "Lihat"
                     });
                 } else {
                     // alert(response.message);
